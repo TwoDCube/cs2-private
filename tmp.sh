@@ -1,0 +1,1 @@
+podman run -e SRCDS_TOKEN="$SRCDS_TOKEN" --net host cs2-private -v $(pwd)/cs2-dedicated:/home/steam/cs2-dedicated
